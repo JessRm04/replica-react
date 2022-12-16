@@ -9,7 +9,6 @@ export const PageContainerJ = styled.div`
     
     @media ${devices.mobile} {
     display: flex;
-    flex-direction: column;
     position: relative;
   }
 `;
