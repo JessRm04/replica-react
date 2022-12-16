@@ -22,16 +22,16 @@ export const FooterRightContainer = styled.div`
 `;
 
 export const FooterUl = styled.ul`
-    style: none;
+    list-style:none;
     display: flex;
     justify-content: center;
-    
 
 `;
 
 export const FooterLi = styled.li`
     color: white;
     margin: 9px;
+    list-style:none;
 
 `;
 

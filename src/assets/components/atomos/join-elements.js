@@ -1,10 +1,17 @@
 import styled from 'styled-components'
+import {devices} from './media-queries.js'
 
 
 export const PageContainerJ = styled.div`
     display: flex;
     flex-direction: row; 
-    position: relative;   
+    position: relative;  
+    
+    @media ${devices.mobile} {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 `;
 
 export const LeftContainerJ = styled.div`
@@ -13,6 +20,12 @@ export const LeftContainerJ = styled.div`
     position: absolute;  
     top: 165px;
     left: 20%;  
+
+    @media ${devices.mobile} {
+    font-size: 0.5em;
+    top: 20%;
+    left: 0%;   
+  }
 `;
 
 export const RightContainerJ = styled.div`
@@ -21,6 +34,10 @@ export const RightContainerJ = styled.div`
     right: 10%;
     top: 100px;
     color: white;
+
+    @media ${devices.mobile} {
+    left: 25%;
+  }
 `;
 
 
@@ -33,4 +50,9 @@ background-color: #202027;
 width: 400px;
 height: 300px;
 border-radius: 15px;
+
+@media ${devices.mobile} {
+    width: 200px;
+    
+  }
 `;

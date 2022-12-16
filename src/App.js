@@ -1,5 +1,4 @@
 import React from 'react';
-import "./App.css";
 import Navbar from './assets/components/moleculas/Navbar.js';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Join from "./assets/pages/Join.js";

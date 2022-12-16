@@ -2,6 +2,18 @@ ul {
     list-style: none;
 }
 
+@media (max-width: 400px) {
+    ul {
+        list-style: none;
+    }
+    }
+
+    @media (min-width: 400px) {
+        ul {
+            list-style: none;
+        }
+        }
+
 #name {
     width: 300px;
     background-color: #202027;
@@ -10,7 +22,12 @@ ul {
     height: 28px;
     outline: 0;
     color: white;
-    
+}
+
+@media (max-width: 400px) {
+#name {
+    width: 100px;
+}
 }
 
 #mail {
@@ -23,6 +40,12 @@ ul {
     color: white;
 }
 
+@media (max-width: 400px) {
+    #mail {
+        width: 100px;
+    }
+    }
+
 #password {
     width: 300px;
     background-color: #202027;
@@ -32,3 +55,9 @@ ul {
     outline: 0;
     color: white;
 }
+
+@media (max-width: 400px) {
+    #password {
+        width: 100px;
+    }
+    }

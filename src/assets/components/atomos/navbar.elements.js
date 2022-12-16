@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import {devices} from './media-queries.js'
 
 export const NavbarContainer = styled.div`
     width: 100%;
@@ -20,6 +21,10 @@ export const NavbarWrapper = styled.div`
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;  
+
+    @media ${devices.mobile} {
+    width: 90%;
+  }
 `;
 
 export const IconLogo = styled.div`
@@ -29,6 +34,10 @@ export const IconLogo = styled.div`
     align-items: center;
     font-size: 1.2rem;
     padding-right: 5%;
+
+    @media ${devices.mobile} {
+        font-size: 1rem;
+    }
     `;
 
 export const Nav = styled.div`
@@ -46,6 +55,10 @@ export const NavbarLink = styled.ul`
     align-items: center;
     font-size: 1.2rem;
     color: white;
+
+    @media ${devices.mobile} {
+        font-size: 1rem;
+  }
 
 &:hover {
     color: #2E3852;

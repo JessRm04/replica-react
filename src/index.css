@@ -3,10 +3,6 @@ body {
   height: 100%;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
 * {
   margin: 0;
@@ -20,10 +16,12 @@ h1 {
   margin-left: 10px;
 }
 
+
 h3 {
  color: white;
  margin-left: 10px;
 }
+
 
 h2 {
   color: white;
@@ -41,15 +39,20 @@ h5 {
 }
 
 .textoJoin {
-font-size: 55px;
+font-size: 5em;
 margin-top: 30px;
-margin-left: 20%;
 z-index: 6;
 }
 
 .textoJoin2 {
-font-size: 55px;
+font-size: 5em;
 margin-top: 30px;
-margin-left: 3%;
+margin-left: 22px;
 color:rgb(226, 43, 195);
 }
+
+@media (max-width: 400px) {
+  .textoJoin2 {
+    margin-left: 10px;
+  }
+  }
