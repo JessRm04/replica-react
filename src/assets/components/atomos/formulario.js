@@ -1,5 +1,5 @@
 import { Contenedor } from "./join-elements";
-import Form from "../atomos/form.css"
+import form from "../atomos/form.css"
 import Button2 from "./button2.js"
 import {Link} from "react-router-dom"
 
