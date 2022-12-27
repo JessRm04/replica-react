@@ -16,7 +16,7 @@ const Home = () => {
                     <Bola2/>
                     <Bola3/>
                     <GirlContainer>
-                        <img src={chica} width="75%"/>
+                        <img src={chica} width="75%" alt="girl"/>
                     </GirlContainer>
                 </LeftContainer>
             <RightContainer>

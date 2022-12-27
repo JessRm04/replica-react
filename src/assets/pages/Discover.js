@@ -1,7 +1,6 @@
 import React from 'react';
 import { PageContainerD, RightContainerD, LeftContainerD, ItemsContainer } from '../components/atomos/discover-elements';
 import Covers from "../components/img/covers.jpg"
-import {Link} from "react-router-dom"
 import DiscoverItem from '../components/atomos/discover-items';
 import Micro from "../components/img/microphone.svg"
 import Albums from "../components/img/albums.svg"
@@ -16,14 +15,14 @@ const Discover = () => {
             <LeftContainerD>
             <h1>Discover New Music</h1>
             <ItemsContainer>
-                <DiscoverItem src={Micro} texto="Charts"/>
-                <DiscoverItem src={Albums} texto="Albums"/>
-                <DiscoverItem src={More} texto="More"/>
+                <DiscoverItem src={Micro} texto="Charts" alt="option"/>
+                <DiscoverItem src={Albums} texto="Albums" alt="option"/>
+                <DiscoverItem src={More} texto="More" alt="option"/>
             </ItemsContainer>
             <h4> By joining you can benefit by listening to the latest albums released. </h4>
             </LeftContainerD>
             <RightContainerD>
-                <img src={Covers} width="60%"/>
+                <img src={Covers} width="60%" alt="option"/>
             </RightContainerD>
         </PageContainerD>
         <Footer/>

@@ -16,7 +16,7 @@ export const Recuadro = styled.div`
 function DiscoverItem ({texto, src}){
     return(
           <Recuadro>
-            <img src={src} width="40px;"/>
+            <img src={src} width="40px;" alt="discover"/>
             <h5> {texto} </h5>
           </Recuadro>
     )}
